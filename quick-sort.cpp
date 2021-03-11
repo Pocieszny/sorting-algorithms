@@ -13,8 +13,7 @@ void swap (int & x, int & y)
 
 void quickSort (int tab[], int start, int end)
 {
-    int 
-        size    {(end - start) + 1},
+    int
         pivot   {end},
         left    {start},
         right   {end - 1};
